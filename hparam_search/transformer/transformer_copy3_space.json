@@ -1,0 +1,49 @@
+{
+  "seed": {
+        "sampling strategy": "choice",
+        "choices": [123, 678]
+  },
+
+  "dropout": {
+    "sampling strategy": "uniform",
+    "bounds": [0.0, 0.6]
+  },
+
+  "nheads": {
+    "sampling strategy": "integer",
+    "bounds": [4, 12]
+  },
+
+  "head_factor": {
+    "sampling strategy": "integer",
+    "bounds": [16, 64]
+  },
+
+  "num_layers": {
+    "sampling strategy": "integer",
+    "bounds": [3, 10]
+  },
+
+  "feedforward_dim": {
+    "sampling strategy": "choice",
+    "choices": [256, 512, 1024, 2048]
+  },
+
+  "batch_size": {
+    "sampling strategy": "choice",
+    "choices": [32, 64, 128]
+  },
+
+  "lr": {
+    "sampling strategy": "loguniform",
+    "bounds": [1e-5, 1e-3]
+  },
+  
+    "warmup": {
+        "sampling strategy": "integer",
+        "bounds": [100, 1000]
+   }
+              
+  
+}
+

@@ -1,0 +1,10 @@
+packaging==21.3
+typing_extensions<4.6.0
+transformers==4.4.2
+allennlp==2.7.0
+allennlp-models==2.7.0
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl
+levenshtein==0.17.0
+neptune-client==0.14.2
+numba==0.54.1
+ortools==9.4.1874

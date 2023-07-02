@@ -1,0 +1,37 @@
+{
+  "seed": {
+        "sampling strategy": "choice",
+        "choices": [1234, 878]
+  },
+
+  "rec_dropout": {
+    "sampling strategy": "uniform",
+    "bounds": [0.0, 0.6]
+  },
+
+  "layer_dropout": {
+    "sampling strategy": "uniform",
+    "bounds": [0.0, 0.6]
+  },
+
+  "hid_dim": {
+    "sampling strategy": "choice",
+    "choices": [150, 200, 300, 400]
+  },
+
+  "num_layers": {
+    "sampling strategy": "choice",
+    "choices": [1,2,3]
+  },
+
+  "target_decoder_layers": {
+    "sampling strategy": "choice",
+    "choices": [1,2,3]
+  },
+
+  "batch_size": {
+    "sampling strategy": "choice",
+    "choices": [32, 64]
+  }
+}
+

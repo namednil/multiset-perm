@@ -1,0 +1,2 @@
+COPY_SYMBOL = "@COPY@"
+COGS_VAR = "@COGS_VAR@"
