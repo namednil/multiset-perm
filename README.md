@@ -1,7 +1,7 @@
 
 
 # Compositional Generalization without Trees using Multiset Tagging and Latent Permutations
-This is the official code for our ACL 2023 paper [Compositional Generalization without Trees using Multiset Tagging and Latent Permutations](https://arxiv.org/abs/2305.16954).
+This is the official code for our ACL 2023 paper [Compositional Generalization without Trees using Multiset Tagging and Latent Permutations](https://aclanthology.org/2023.acl-long.810/).
 
 
 ## Usage
@@ -82,11 +82,12 @@ also includes a simple example. Feel free to reach out if you have any questions
     author = "Lindemann, Matthias  and
       Koller, Alexander  and
       Titov, Ivan",
-    booktitle = "Proceedings of the 61st Conference of the ACL",
-    month = july,
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
     year = "2023",
     address = "Toronto, Canada",
-    url = "https://arxiv.org/abs/2305.16954",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.810",
 }
 ```
 
